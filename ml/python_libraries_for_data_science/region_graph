@@ -1,0 +1,20 @@
+digraph {
+	Afghanistan [label="Afghanistan
+Lat: 33.83
+Lon: 66.02"]
+	Albania [label="Albania
+Lat: 41.13
+Lon: 20.06"]
+	Algeria [label="Algeria
+Lat: 28.14
+Lon: 2.68"]
+	Angola [label="Angola
+Lat: -12.29
+Lon: 17.55"]
+	"Antigua and Barbuda" [label="Antigua and Barbuda
+Lat: 17.08
+Lon: -61.80"]
+	Afghanistan -> Albania [label="Connection 1"]
+	Algeria -> Angola [label="Connection 2"]
+	Albania -> "Antigua and Barbuda" [label="Connection 3"]
+}
